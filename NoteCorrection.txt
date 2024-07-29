@@ -1,0 +1,10 @@
+Notes du fichier TennisGame :
+
+1) Absence de javadoc pour les champs / méthodes
+2) Structures conditionnelles irrégulières (les accolades, le fait d'aller à la ligne...)
+3) Valeurs directements mises dans le code (l.29), utilisation de constantes
+4) Niveau d'imbrication trop important
+5) Ré utilisation de code, manque de factorisation (valeurs textuelles)
+6) nommage de variables
+7) securité wonPoint
+
