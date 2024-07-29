@@ -8,3 +8,18 @@ Notes du fichier TennisGame :
 6) nommage de variables
 7) securité wonPoint
 
+[cols="1,1,1,1,1,1,1,1,1,1,1"]
+|===
+| Odeur | Gravité | Recurrence | Risque |  |  |  |  |  |  | 
+
+| Nommage des variables (absence sémantique) | Moyenne | 3 |  | l4 |  | 1 | 2 | 3 | 4 | 5
+| Nommage des fonctions | Moyenne | 2 |  |  |  |  |  |  | 
+| Verification préconditionnelle | Forte | 3 | 1 | l24 |  |  |  |  | 
+| "Valeurs codées en ""dur"", absence d'énumération ou constante" | Moyenne | 3 | 2 | l29 |  |  |  |  | 
+| Niveau d'imbrication trop important | Forte | 2 |  | l59 |  |  |  |  | 
+| Non respect des conventions de codage | Moyenne | 4 |  | l46 |  |  | Rare |  | 
+| Code non commenté | Faible | 5 |  | 0 commentaire |  |  | Faible |  | 
+| Violation des Single Responsability Principe | Moyenne | 3 |  | l21 |  |  | Courant |  | 
+| Absence javadoc pour les méthodes et classes publiques | Faible | 5 |  |  |  |  |  |  | 
+| Erreur métier | Moyenne | 2 |  |  |  |  |  |  | 
+|===
