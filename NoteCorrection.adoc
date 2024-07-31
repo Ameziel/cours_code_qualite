@@ -14,9 +14,9 @@ pendant le jeu. 0 - 15 Signifie
 
 [cols="1,1,1,1,1,1,1,1,1,1,1"]
 |===
-| Odeur | Gravité | Recurrence | Risque |  |  |  |  |  |  | 
+| Odeur | Gravité | Recurrence | Risque |
 
-| Nommage des variables (absence sémantique) | Moyenne | 3 |  | l4 |  | 1 | 2 | 3 | 4 | 5
+| Nommage des variables (absence sémantique) | Moyenne | 3 | l4 | 1 | 2 | 3 | 4 | 5
 | Nommage des fonctions | Moyenne | 2 |  |  |  |  |  |  | 
 | Verification préconditionnelle | Forte | 3 | 1 | l24 |  |  |  |  | 
 | "Valeurs codées en ""dur"", absence d'énumération ou constante" | Moyenne | 3 | 2 | l29 |  |  |  |  | 
