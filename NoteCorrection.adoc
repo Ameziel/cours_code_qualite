@@ -1,29 +1,22 @@
 Notes du fichier TennisGame : ( https://github.com/shemsAsf/Tennis-Refactoring-Kata/blob/main/java/src/main/java/TennisGame1.java )
 
-1) Absence de javadoc pour les champs / méthodes
-2) Structures conditionnelles irrégulières (les accolades, le fait d'aller à la ligne...) (l15 et l25)
-3) Valeurs directements mises dans le code (l29)
-4) Niveau d'imbrication trop important (l65)
-5) Ré utilisation de code, manque de factorisation (valeurs textuelles)
-6) Nommage de variables innapropriées (l4 et 5)
-7) La securité concernant par exemple la méthode "wonPoint". Elle ne prend pas en compte correctement la chaîne
-de caractère en comparaison en utilisant l'opérateur '=='. La méthode "equalsTo" doit être employée. (l14)
-8) Aussi, cette méthode ne considère pas une erreur dans le passage d'argument. (l17)
-9) La considération métier est inéxacte. Au tennis "l'ordre du score" dépend de qui est le serveur
-pendant le jeu. 0 - 15 Signifie que c'est le receveur qui a un point. Cette subtilité n'est pas mentionné dans le code
+Gravité : Faible / Moyenne / Élevée
+Une récurrence élevée = une valeur élevée (1 à 3)
 
 [cols="1,1,1,1,1,1,1,1,1,1,1"]
 |===
-| Odeur | Gravité | Recurrence | Risque |
+| Odeur | Gravité | Recurrence |
 
-| Nommage des variables (absence sémantique) | Moyenne | 3 | l4 | 1 | 2 | 3 | 4 | 5
-| Nommage des fonctions | Moyenne | 2 |  |  |  |  |  |  | 
-| Verification préconditionnelle | Forte | 3 | 1 | l24 |  |  |  |  | 
-| "Valeurs codées en ""dur"", absence d'énumération ou constante" | Moyenne | 3 | 2 | l29 |  |  |  |  | 
-| Niveau d'imbrication trop important | Forte | 2 |  | l59 |  |  |  |  | 
-| Non respect des conventions de codage | Moyenne | 4 |  | l46 |  |  | Rare |  | 
-| Code non commenté | Faible | 5 |  | 0 commentaire |  |  | Faible |  | 
-| Violation des Single Responsability Principe | Moyenne | 3 |  | l21 |  |  | Courant |  | 
-| Absence javadoc pour les méthodes et classes publiques | Faible | 5 |  |  |  |  |  |  | 
-| Erreur métier | Moyenne | 2 |  |  |  |  |  |  | 
+|Nommage de fonction inadapté|Moyenne|3|
+|Absence de javadoc pour les champs / méthodes|Moyenne 3|1
+|Structures conditionnelles irrégulières (les accolades, le fait d'aller à la ligne...) (l15 et l25)|Élevée|2|
+|Valeurs directements mises dans le code (l29)|Moyenne|3|
+|Niveau d'imbrication trop important (l65)|Élevée|3|
+|Ré utilisation de code, manque de factorisation (valeurs textuelles)|Moyenne|2|
+|Nommage de variables innapropriées (l4 et 5)|Faible|2|
+|La securité concernant par exemple la méthode "wonPoint". Elle ne prend pas en compte correctement la chaîne de caractère en comparaison en utilisant l'opérateur '=='. La méthode "equalsTo" doit être employée. (l14)|Élevée|1|
+|Aussi, cette méthode ne considère pas une erreur dans le passage d'argument. (l17)|Élevée|1|
+|La considération métier est inéxacte. Au tennis "l'ordre du score" dépend de qui est le serveur
+pendant le jeu. 0 - 15 Signifie que c'est le receveur qui a un point. Cette subtilité n'est pas mentionné dans le code|Élevée|1|
+
 |===
